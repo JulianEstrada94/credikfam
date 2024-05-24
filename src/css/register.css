@@ -1,0 +1,153 @@
+.register {
+
+.contenedor{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.contenedor h1{
+    font-size: 2em;
+    color: var(--blanco);
+     padding: 25px 30px;
+     display: flex; 
+     justify-content: center;
+     
+    }
+   
+
+
+header{
+    background-color: var(--azul); 
+}
+.ver-listado {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px !important;
+  button {
+    background: var(--verde);
+    color: var(--blanco);
+    font-size: 15px;
+    text-justify: center;
+    text-decoration: underline;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 8px var(--verde);
+    padding: 5px 25px;
+    width: 30%;
+  }
+}
+
+ #cerrar{
+    float:right;
+ }
+
+
+.input h2{
+    font-size: 1.4em;
+    color: var(--veragua);
+    margin-top: 30px;
+}
+
+.input input, button{
+    margin: 25px 0;
+    border-radius: 8px;
+    outline: none;
+    width: 80%;
+    border-color: var(--lblue);
+    padding: 10px 13px;
+
+}
+
+.input button {
+    position: center;
+    background: var(--verde);
+    color: var(--blanco);
+    font-size: 15px;
+    text-justify: center;
+    text-decoration: underline;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 8px var(--verde);
+    padding: 5px 25px;
+    margin-top: 150px;
+}
+.input button:hover {
+    cursor: pointer;
+    background-color: limegreen;
+}
+
+.input{
+    text-align: center;
+}
+
+
+ @media (min-width:768px) {
+        
+        .contenedor_formulario{
+          column-count: 3;
+          column-gap: 30px;
+          column-rule: 2px;
+    
+         }
+
+        
+  }
+  @media (min-width:768px) {
+        
+        #cerrar{
+          float:right;
+        }
+
+        #documento{
+          margin-top: 80px;
+        }    
+        
+  }
+  @media (min-width:768px) {
+        
+        #apellidos{
+          margin-top: 80px;
+        }
+
+        #documento{
+          margin-top: 80px;
+        }    
+        
+  }
+}
+
+/* Estilos para las celdas de la tabla */
+table {
+  width: 100%;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Estilos para el encabezado de la tabla */
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Estilos para las filas pares de la tabla */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos cuando se pasa el ratón sobre una fila */
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Estilos para la primera columna (por ejemplo, IDs) */
+td:first-child {
+  font-weight: bold;
+}
+
+.contendor_tabla {
+  display: flex;
+  justify-content: center;
+}

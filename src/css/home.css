@@ -1,0 +1,103 @@
+.home-page {
+
+    .logo {
+    background-image: url("../img/logomediano.png");
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    flex: 0 0 calc(60%);
+}
+
+.inicio {
+    padding: 70px;
+    justify-content: center;
+}
+
+/*.inicio{
+    width: 100%;
+    justify-content: center;
+    padding:50px 30px;
+     height: auto;
+    display:grid;
+   
+}*/
+
+.ingreso{
+     color: #00dce4;   /**Color de la fuente**/
+     margin: 15px;
+     font-weight: bold;  /**fuente negrita**/
+     padding:30px;       /**Genera espacio en el contorno**/
+}
+
+.entidad{
+    margin:20px;
+    background-color:#3101ff; /**Color de fondo del botón**/
+    color: white;             /**Color de fuente**/
+    font-size:20px;              /**Tamaño de la fuente**/
+    text-justify: center;        /**Alineación de fuente**/
+    text-decoration: underline;  /**subrayado de fuente**/
+    border-radius: 18px;         /**borde del boton**/
+    border:none;                 /**Para que no se visibilice el borde**/
+    box-shadow: 2px 2px 8px #3101ff; /**Sombreado**/
+    padding: 10px 40px;                /**Espacio del contorno**/
+}
+
+.entidad:hover{                       /** el boton cambia de color cuando pasa el mouse**/
+     background-color: mediumblue; 
+ }
+
+.persona{
+    margin: 25px;
+    background-color:#19e400;
+    color: white; 
+    font-size:20px;
+    text-justify: center;
+    text-decoration: underline;  
+    border-radius: 18px;
+    border:none;
+    box-shadow: 2px 2px 8px #19e400;
+    padding: 10px 45px;
+}
+
+.persona:hover{
+    background-color: limegreen;/** el boton cambia de color cuando pasa el mouse**/
+}
+
+
+@media (min-width:768px) {
+    .logo {
+        height: auto;
+        background-position: right;
+    }
+}
+ @media(min-width:1200px) {
+        .logo {
+            background-position: center;
+        }
+    }
+ @media (min-width:768px) {
+        .contenedor_ingreso {
+            display: flex;
+        }
+  }
+
+/*@media(min-width:822px) {
+     body{
+        column-count: 2;
+    }
+    .container_logo{
+        flex-direction: column;
+    }
+    .logo{
+         padding: 100px 60px
+    }
+    .inicio{
+        flex-direction: column;
+        padding-top: 170px;
+        
+    }
+
+}*/
+}
+
+

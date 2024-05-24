@@ -1,0 +1,90 @@
+.login-entity {
+
+
+.logo {
+    background-image: url("../img/logomediano.png");
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    flex: 0 0 calc(60%);
+}
+
+.cerrar {
+    float: right;
+}
+
+.formulario {
+    padding: 50px;
+    background-color: var(--azul);
+}
+
+lebel,a {
+    color: var(--blanco);
+    font-size: 12px;
+}
+
+.input input,
+button {
+    margin: 20px 0;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 8px 13px;
+}
+
+.input button {
+    position: center;
+    background: var(--verde);
+    color: var(--blanco);
+    font-size: 15px;
+    text-justify: center;
+    text-decoration: underline;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 8px var(--verde);
+    padding: 5px 25px;
+}
+
+.input button:hover {
+    cursor: pointer;
+    background-color: limegreen;
+}
+
+.registrar a {
+    float: left;
+    margin-top: 10px;
+}
+
+.OlvClave a {
+    float: right;
+    margin-top: 10px;
+}
+
+.registrar a,
+.OlvClave a:hover {
+    cursor: pointer;
+}
+
+.recordarme {
+    position: left;
+    padding: 5px 10px;
+}
+
+@media (min-width:768px) {
+    .logo {
+        height: auto;
+        background-position: right;
+    }
+}
+ @media(min-width:1200px) {
+        .logo {
+            background-position: center;
+        }
+    }
+ @media (min-width:768px) {
+        .contenedor_formulario {
+            display: flex;
+        }
+  }
+}
